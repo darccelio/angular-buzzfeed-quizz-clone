@@ -1,0 +1,681 @@
+{
+  "questions": [
+    {
+      "theme": "Viagem",
+      "id": 1,
+      "title": "Viagem pelo Tempo",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Em qual época histórica você gostaria de viajar?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Idade da Pedra",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Renascimento",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Era Vitoriana",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Futuro distante",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Antigo Egito",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual seria o propósito da sua viagem no tempo?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Alterar o curso da história",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Aprender com grandes mentes do passado",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Preservar segredos do futuro",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Explorar civilizações antigas",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Resolver mistérios históricos",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Como você lidaria com o paradoxo temporal?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Evitaria qualquer mudança para não afetar o presente",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Aproveitaria a oportunidade para mudar o futuro",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Tomaria cuidado para não interferir diretamente",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Experimentaria diferentes possibilidades e observaria as consequências",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Ignoraria o paradoxo e faria o que bem entendesse",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Quais recursos tecnológicos você levaria para a viagem?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Um smartphone com conexão à internet",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Um guia de viagem com informações históricas",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Um traje futurista com proteção e camuflagem",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Um dispositivo de tradução simultânea",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Uma máquina do tempo portátil",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual seria o impacto da sua viagem no tempo?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Alteraria significativamente o curso da história",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Influenciaria sutilmente alguns eventos",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Não causaria grandes mudanças",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Preservaria o fluxo temporal original",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Criaria uma realidade alternativa",
+              "alias": "E"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você seria um viajante do tempo impulsivo, capaz de mudar o curso da história.",
+        "B": "Você seria um estudioso do tempo, buscando aprender com o passado.",
+        "C": "Você seria um guardião do tempo, cuidando para não interferir diretamente.",
+        "D": "Você seria um explorador do tempo, experimentando diferentes possibilidades.",
+        "E": "Você seria um disruptor temporal, criando realidades alternativas."
+      }
+    },
+    {
+      "theme": "Animais de Estimação",
+      "id": 2,
+      "title": "Animais de Estimação",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual tipo de animal de estimação você prefere?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Cachorro",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Gato",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Peixe",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Pássaro",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Réptil",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual característica você valoriza mais em um animal de estimação?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Lealdade",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Independência",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Facilidade de cuidados",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Canto/melodia",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Exotismo",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual é o seu nível de interação preferido com o animal de estimação?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Alta interação física e brincadeiras",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Interação moderada e momentos de carinho",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Baixa interação, apenas observação",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Apreciação auditiva (cantos, trinados, etc.)",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Observação de comportamentos exóticos",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Qual é o seu espaço disponível para cuidar de um animal de estimação?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Casa com quintal espaçoso",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Apartamento com espaço limitado",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Espaço pequeno, mas com área externa",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Qualquer espaço é suficiente",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Espaço adaptado para necessidades específicas",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual é o seu estilo de vida?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Ativo e energético",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Calmo e tranquilo",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Relaxado e descompromissado",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Apreciador de sons e melodias",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Curioso e explorador",
+              "alias": "E"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você seria mais feliz com um cachorro como animal de estimação.",
+        "B": "Você seria mais feliz com um gato como animal de estimação.",
+        "C": "Você seria mais feliz com um peixe como animal de estimação.",
+        "D": "Você seria mais feliz com um pássaro como animal de estimação.",
+        "E": "Você seria mais feliz com um réptil como animal de estimação."
+      }
+    },
+    {
+      "theme": "Férias",
+      "id": 3,
+      "title": "Destino de Férias",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual tipo de clima você prefere para suas férias?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Tropical",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Frio e neve",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Arido e desértico",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Temperado e ameno",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Mistura de climas",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual é o seu tipo de paisagem preferido?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Praias paradisíacas",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Montanhas cobertas de neve",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Desertos imensos",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Campos e florestas verdes",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Variedade de paisagens",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual é o seu objetivo principal nas férias?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Relaxar e descansar",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Praticar esportes e aventuras",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Explorar a cultura local",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Entrar em contato com a natureza",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Experimentar diferentes experiências",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Qual é o seu orçamento para as férias?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Alto, sem preocupações financeiras",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Médio, com algum conforto",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Baixo, procurando opções econômicas",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Depende do destino e das experiências",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Sem restrições, vale a pena investir",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual é o seu estilo de viagem preferido?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Resort de luxo",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Aventura e camping",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Exploração de sítios históricos",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Ecoturismo e trilhas",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Roteiro diversificado e flexível",
+              "alias": "E"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Seu destino ideal seria em uma praia paradisíaca.",
+        "B": "Seu destino ideal seria em uma montanha coberta de neve.",
+        "C": "Seu destino ideal seria em um deserto imenso.",
+        "D": "Seu destino ideal seria em um campo ou floresta verde.",
+        "E": "Seu destino ideal seria em um lugar com variedade de paisagens."
+      }
+    },
+    {
+      "theme": "Mercado de Trabalho",
+      "id": 4,
+      "title": "Profissões",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual área profissional mais te atrai?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Ciências Exatas e Tecnologia",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Artes e Design",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Ciências Sociais e Humanas",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Saúde e Medicina",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Negócios e Empreendedorismo",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual habilidade você valoriza mais em uma profissão?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Lógica e raciocínio analítico",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Criatividade e expressão artística",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Comunicação e habilidades interpessoais",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Cuidado e ajuda ao próximo",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Liderança e habilidades empreendedoras",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual ambiente de trabalho você prefere?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Laboratório ou escritório",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Estúdio ou ateliê",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Local de trabalho flexível e variado",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Hospital ou clínica",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Escritório corporativo ou negócio próprio",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Qual é o seu objetivo principal na sua carreira?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Contribuir para o avanço da ciência e tecnologia",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Inovar e inspirar através da arte e design",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Promover mudanças sociais e impacto positivo",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Cuidar e salvar vidas",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Construir e liderar negócios de sucesso",
+              "alias": "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual é a sua disposição para estudar e se aprimorar constantemente?",
+          "options": [
+            {
+              "id": 1,
+              "name": "Altamente motivado e dedicado",
+              "alias": "A"
+            },
+            {
+              "id": 2,
+              "name": "Aberto a novas ideias e aprendizado contínuo",
+              "alias": "B"
+            },
+            {
+              "id": 3,
+              "name": "Disposto a trabalhar em equipe e aprender com os outros",
+              "alias": "C"
+            },
+            {
+              "id": 4,
+              "name": "Comprometido com o aprendizado necessário para a profissão",
+              "alias": "D"
+            },
+            {
+              "id": 5,
+              "name": "Pronto para assumir desafios e aprender com a experiência",
+              "alias": "E"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você seria mais adequado para uma carreira nas Ciências Exatas e Tecnologia.",
+        "B": "Você seria mais adequado para uma carreira nas Artes e Design.",
+        "C": "Você seria mais adequado para uma carreira nas Ciências Sociais e Humanas.",
+        "D": "Você seria mais adequado para uma carreira na Saúde e Medicina.",
+        "E": "Você seria mais adequado para uma carreira nos Negócios e Empreendedorismo."
+      }
+    }
+  ]
+}
+
