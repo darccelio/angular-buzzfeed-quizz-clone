@@ -2,9 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
-## Development server
+This project was refactored based on the Digital Innovation One project fork. To enhance its features, I developed a reactive form selector, which allows users to choose question themes and subsequently displays questions for them to answer. Ultimately, the application presents the result that is most likely applicable to the user. Finally, users have the option to restart the application and respond to other questions.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Development server
+First, run `json-server --watch db/data.json` to start a fake API server using json-server. Open another terminal and run `npm start` to start the development server. Navigate to `http://localhost:4200/` in your web browser. The application will automatically reload if you make any changes to the source files.
 
 ## Code scaffolding
 
