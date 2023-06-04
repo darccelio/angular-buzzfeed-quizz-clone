@@ -1,5 +1,11 @@
 {
-  "questions": [
+  "optionsTheme": [
+    "Viagem",
+    "Animais de Estimação",
+    "Férias",
+    "Mercado de Trabalho"
+  ],
+  "themes": [
     {
       "theme": "Viagem",
       "id": 1,
@@ -676,6 +682,7 @@
         "E": "Você seria mais adequado para uma carreira nos Negócios e Empreendedorismo."
       }
     }
-  ]
+     ]
 }
+
 

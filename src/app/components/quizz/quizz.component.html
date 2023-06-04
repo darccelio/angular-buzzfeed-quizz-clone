@@ -1,28 +1,85 @@
-<div class="quizz__container">
-
+<div class="quizz__container flex-collumn">
   <div class="quizz_logo">
-    <img src="assets/imgs/logo.png" alt="" srcset="">
-    <h3>{{title}}</h3>
+    <img src="assets/imgs/logo.png" alt="" srcset="" />
   </div>
 
-  <div *ngIf=!finished class="quizz_questions">
-      <h3>{{questionSelected.question}}</h3>
-  </div>
+  <ng-container *ngIf="themeIndexSelected < 0; else questionTemplate">
+    <section class="quiz_themes">
+      <p>Escolha o tema de perguntas que você deseja responder ?</p>
 
-  <div *ngIf=!finished class="quizz_options">
+      <form [formGroup]="selectForm">
+        <select autofocus formControlName="select" (change)="changeTheme()">
+          <option value="">Selecione:</option>
+          <option *ngFor="let theme of optionsTheme; let i = index" [value]="i">
+            {{ theme}}
+          </option>
 
-    <button
-      *ngFor="let option of questionSelected.options; let i = index"
-      (click)="playerChoose(option.alias)"
-      class="btn-option"
-    >
-      {{option.name}}
-    </button>
+        </select>
+      </form>
+    </section>
+  </ng-container>
 
-  </div>
 
-  <div *ngIf=finished class="quizz_results">
-    <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
-  </div>
+  <ng-template #questionTemplate>
+    <div *ngIf="!finished" class="quizz_title_questions">
+      <h3>{{ themeSelected.title }}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_questions">
+      <h3>{{ themeSelected.questions[questionIndex].question }}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_options">
+      <button
+        *ngFor="let question of themeSelected.questions; let i = index"
+        (click)="playerChoose(question.options[i].alias)"
+        class="btn-option"
+      >
+        <span>{{ answerOptionsDinamic[i].name }} </span>
+      </button>
+    </div>
+
+    <div *ngIf="finished" class="quizz_results">
+      <h1>O seu resultado é:</h1>
+
+      <p>{{ finalResult }}</p>
+
+      <button class="btn-restart" (click)="reset()">
+        <span>Recomeçar </span>
+      </button>
+    </div>
+  </ng-template>
+
+  <!-- <div *ngIf="!finished" class="quizz_progress">
+    <div class="quizz_progress__bar">
+      <div class="quizz_progress__bar__fill" [style.width]="progressBar"></div>
+    </div>
+    <div class="quizz_progress__text">
+      <p>{{ questionIndex + 1 }} de {{ questions.length }}</p>
+    </div> -->
+
+  <!-- <ng-template #questionTemplate>
+    <div *ngIf="!finished" class="quizz_title_questions">
+      <h3>{{ title }}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_questions">
+      <h3>{{ questionSelected.question }}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_options">
+      <button
+        *ngFor="let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)"
+        class="btn-option"
+      >
+        {{ option.name }}
+      </button>
+    </div>
+
+    <div *ngIf="finished" class="quizz_results">
+      <h1>O Seu resultado é:</h1>
+      <p>{{ answerSelected }}</p>
+    </div>
+  </ng-template> -->
 </div>
