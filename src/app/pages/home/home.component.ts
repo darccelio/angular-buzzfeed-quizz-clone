@@ -31,11 +31,7 @@ export class HomeComponent implements OnInit {
 
   listAllThemes() {
     this.fetchOptionThemes();
-    // return this.httpService.listAllThemes().subscribe();
   }
 
-  // listQuestionsByTheme(id: number) {
-  //   return this.httpService.listQuestionByTheme(id);
-  // }
 
 }

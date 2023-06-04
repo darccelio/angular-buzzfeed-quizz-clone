@@ -49,37 +49,4 @@
       </button>
     </div>
   </ng-template>
-
-  <!-- <div *ngIf="!finished" class="quizz_progress">
-    <div class="quizz_progress__bar">
-      <div class="quizz_progress__bar__fill" [style.width]="progressBar"></div>
-    </div>
-    <div class="quizz_progress__text">
-      <p>{{ questionIndex + 1 }} de {{ questions.length }}</p>
-    </div> -->
-
-  <!-- <ng-template #questionTemplate>
-    <div *ngIf="!finished" class="quizz_title_questions">
-      <h3>{{ title }}</h3>
-    </div>
-
-    <div *ngIf="!finished" class="quizz_questions">
-      <h3>{{ questionSelected.question }}</h3>
-    </div>
-
-    <div *ngIf="!finished" class="quizz_options">
-      <button
-        *ngFor="let option of questionSelected.options; let i = index"
-        (click)="playerChoose(option.alias)"
-        class="btn-option"
-      >
-        {{ option.name }}
-      </button>
-    </div>
-
-    <div *ngIf="finished" class="quizz_results">
-      <h1>O Seu resultado é:</h1>
-      <p>{{ answerSelected }}</p>
-    </div>
-  </ng-template> -->
 </div>
